@@ -39,11 +39,6 @@ const initSettings = props => {
     settings.colDesktop = defaults.colDesktop
     settings.hasDesktop = false;
   };
-
-  // props.colTablet ? settings.colTablet = props.colTablet : settings.colTablet = defaults.colTablet;
-  // props.colLaptop ? settings.colLaptop = props.colLaptop : settings.colLaptop = defaults.colLaptop
-  // props.colDesktop ? settings.colDesktop = props.colDesktop : settings.colDesktop = defaults.colDesktop
-
 }
 
 const GridWrapper = styled.div`
